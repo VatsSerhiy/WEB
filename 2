@@ -1,0 +1,20 @@
+2. Створення калькулятора за допомогою конструктора
+який створює об'єкти з трьома методами:
+
+read()запитує два значення за допомогою prompt та зберігає їх значення у властивостях об'єкта.
+sum() повертає суму введених властивостей.
+mul() повертає добуток введених властивостей
+function Calculator() {
+  this.a = null
+  this.b = null
+  this.read = () => {
+    this.a = +prompt('Enter a:')
+    this.b = +prompt('Enter b:')
+  }
+  this.sum = () => {
+    return this.a + this.b
+  }
+  this.mul = () => {
+    return this.a * this.b
+  }
+}
