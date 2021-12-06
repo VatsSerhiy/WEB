@@ -1,4 +1,0 @@
-let array=[ 
-" Повна інтеграція з HTML/CSS "
-]
-array.forEach(item => item.indexOf('JavaScript') !== -1 ? console.log(item) : undefined)
