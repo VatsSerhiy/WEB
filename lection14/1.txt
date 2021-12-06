@@ -1,0 +1,2 @@
+let user = {  name: "Kevin",  years: 50},
+    {name, years: age, isAdmin = false} = user
